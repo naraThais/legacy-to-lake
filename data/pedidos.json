@@ -1,0 +1,16 @@
+{
+  "pedidos": [
+    {
+      "id": 101,
+      "clienteId": 1,
+      "produto": "Notebook",
+      "valor": 3500.0
+    },
+    {
+      "id": 102,
+      "clienteId": 2,
+      "produto": "Mouse",
+      "valor": 80.5
+    }
+  ]
+}

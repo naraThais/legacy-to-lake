@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  json-server:
+    image: clue/json-server
+    volumes:
+      - ../data/pedidos.json:/data/db.json
+    ports:
+      - "3001:80"
+    command: /data/db.json
